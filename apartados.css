@@ -1,0 +1,565 @@
+/* Estilos base (sin modificaciones importantes) */
+.jugador {
+    display: inline-block;
+    width: 200px;
+    text-align: center;
+    margin: 10px;
+}
+
+.jugador img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+section {
+    margin-bottom: 30px;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+#top-jugadores {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    margin: 20px;
+    color: white;
+}
+
+.contenedor-jugadores {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.jugador {
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+    width: 200px;
+}
+
+.jugador img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.jugador h3 {
+    color: yellow;
+    margin-bottom: 5px;
+}
+
+.jugador p {
+    font-size: 14px;
+    margin: 5px 0;
+}
+
+.ctitulo {
+    background-color: rgb(128, 0, 128);
+    max-width: 2000px;
+    max-height: 30px;
+    text-align: center;
+    padding: 20px;
+    margin: 20px;
+    border-color: rgb(0, 0, 255);
+    border-style: outset;
+}
+
+.titulo {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+#historia {
+    background: linear-gradient(to bottom, #004d98, #a50044);
+    padding: 40px;
+    margin: 20px auto;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+}
+
+.contenedor-historia {
+    max-width: 900px;
+    margin: auto;
+}
+
+.epoca {
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    padding: 30px;
+    margin-bottom: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+}
+
+.epoca:hover {
+    transform: translateY(-5px);
+}
+
+.epoca h3 {
+    color: #ffd700;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #ffd700;
+    padding-bottom: 10px;
+}
+
+.epoca p {
+    font-size: 16px;
+    color: #e0e0e0;
+}
+
+.ctitulo {
+    background-color: rgba(0, 0, 0, 0.3);
+    padding: 20px;
+    margin-bottom: 30px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.titulo {
+    font-family: 'Oswald', sans-serif;
+    font-size: 2.5em;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+#estadisticas {
+    background: linear-gradient(to bottom, #004d98, #a50044);
+    padding: 40px;
+    margin: 20px auto;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+}
+
+.contenedor-estadisticas {
+    max-width: 1000px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, auto);
+    gap: 20px;
+}
+
+.grupo-estadisticas {
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    padding: 30px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+}
+
+.grupo-estadisticas:hover {
+    transform: translateY(-8px);
+}
+
+.grupo-estadisticas h2 {
+    color: #ffd700;
+    margin-bottom: 20px;
+    border-bottom: 3px solid #ffd700;
+    padding-bottom: 15px;
+    text-align: center;
+}
+
+.grupo-estadisticas h3 {
+    color: #ffd700;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.grupo-estadisticas p {
+    font-size: 16px;
+    color: #e0e0e0;
+    margin-bottom: 10px;
+}
+
+.grupo-estadisticas strong {
+    color: white;
+}
+
+.ctitulo {
+    background-color: rgba(0, 0, 0, 0.3);
+    padding: 25px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.titulo {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3em;
+    color: white;
+    text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.5);
+    margin: 0;
+}
+
+#champions {
+    background: linear-gradient(to bottom, #004d98, #a50044);
+    padding: 40px;
+    margin: 20px auto;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+}
+
+.contenedor-champions {
+    max-width: 900px;
+    margin: auto;
+}
+
+.titulo-champions {
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    padding: 30px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+}
+
+.titulo-champions:hover {
+    transform: translateY(-5px);
+}
+
+.titulo-champions h3 {
+    color: #ffd700;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #ffd700;
+    padding-bottom: 10px;
+}
+
+.titulo-champions p {
+    font-size: 16px;
+    color: #e0e0e0;
+    margin-bottom: 10px;
+}
+
+#champions h2 {
+    color: #ffd700;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#champions {
+    background: linear-gradient(to bottom, #003366, #001a33);
+    padding: 50px;
+    margin: 20px auto;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.7;
+    position: relative;
+    overflow: hidden;
+}
+
+#champions::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url('img/champions-background.jpg') center/cover no-repeat;
+    opacity: 0.1;
+    pointer-events: none;
+}
+
+.contenedor-champions {
+    max-width: 900px;
+    margin: auto;
+    position: relative;
+    z-index: 1;
+}
+
+.titulo-champions {
+    background-color: rgba(255, 255, 255, 0.15);
+    border-radius: 15px;
+    padding: 35px;
+    margin-bottom: 25px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.titulo-champions:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
+}
+
+.titulo-champions h3 {
+    color: #ffd700;
+    margin-bottom: 20px;
+    border-bottom: 3px solid #ffd700;
+    padding-bottom: 15px;
+    font-size: 1.8em;
+}
+
+.titulo-champions p {
+    font-size: 1.1em;
+    color: #e0e0e0;
+    margin-bottom: 12px;
+}
+
+#champions h2 {
+    color: #ffd700;
+    margin-top: 40px;
+    margin-bottom: 25px;
+    text-align: center;
+    font-size: 2.2em;
+}
+
+#champions p {
+    font-size: 1.1em;
+    color: #e0e0e0;
+}
+
+.ctitulo {
+    background-color: rgba(0, 0, 0, 0.4);
+    padding: 30px;
+    margin-bottom: 35px;
+    border-radius: 12px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.titulo {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3.5em;
+    color: #ffd700;
+    text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.6);
+    margin: 0;
+}
+
+#goat {
+    background: linear-gradient(to bottom, #283747, #17202A);
+    padding: 40px;
+    margin: 20px auto;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+}
+
+.contenedor-goat {
+    max-width: 900px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.goat-img {
+    width: 300px;
+    border-radius: 10px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.goat-info {
+    flex: 1;
+}
+
+.goat-info h3 {
+    color: #ffd700;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.goat-info h4 {
+    color: #ffd700;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+.goat-info p {
+    font-size: 16px;
+    color: #e0e0e0;
+    margin-bottom: 10px;
+}
+
+.goat-info strong {
+    color: white;
+}
+
+.ctitulo {
+    background-color: rgba(0, 0, 0, 0.3);
+    padding: 25px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.titulo {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3em;
+    color: #ffd700;
+    text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.5);
+}
+
+#creditos {
+    background: linear-gradient(to bottom, #34495E, #2C3E50);
+    padding: 40px;
+    margin: 20px auto;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    text-align: center;
+}
+
+.contenedor-creditos {
+    max-width: 800px;
+    margin: auto;
+}
+
+.contenedor-creditos p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.ctitulo {
+    background-color: rgba(0, 0, 0, 0.3);
+    padding: 25px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+}
+
+.titulo {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3em;
+    color: #ffd700;
+    text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.5);
+}
+
+/* Media Queries para Responsividad (sin modificar estilos base innecesariamente) */
+@media (max-width: 768px) {
+    /* Ajustes para pantallas medianas (tabletas) */
+    .jugador {
+        width: calc(50% - 20px); /* Dos columnas para jugadores */
+        margin: 10px;
+    }
+
+    .contenedor-estadisticas {
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Adaptar columnas estadísticas */
+    }
+
+    .contenedor-goat {
+        flex-direction: column; /* Apilar elementos en GOAT */
+        align-items: center;
+    }
+
+    .goat-img {
+        width: 80%; /* Imagen GOAT más grande */
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+
+    .goat-info {
+        text-align: center; /* Centrar texto GOAT */
+    }
+}
+
+@media (max-width: 600px) {
+    /* Ajustes para pantallas pequeñas (móviles) */
+    .jugador {
+        width: calc(100% - 20px); /* Una columna para jugadores */
+        margin: 10px 0;
+    }
+
+    .contenedor-estadisticas {
+        grid-template-columns: 1fr; /* Una columna para estadísticas */
+    }
+
+    .contenedor-goat .goat-img {
+        width: 90%;
+    }
+}
+
+/* Ajustes menores para contenedores que podrían necesitarlo */
+@media (max-width: 992px) {
+    .contenedor-historia {
+        padding: 0 20px;
+    }
+
+    .contenedor-champions {
+        padding: 0 20px;
+    }
+
+    .contenedor-creditos {
+        padding: 0 20px;
+    }
+}
+
+/* Media Queries para Responsividad - Ajustes específicos para Estadísticas y GOAT */
+
+@media (max-width: 768px) {
+    .contenedor-estadisticas {
+        grid-template-columns: 1fr;
+    }
+
+    .contenedor-goat {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .goat-img {
+        width: 80%;
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+
+    .goat-info {
+        text-align: center;
+    }
+}
+
+@media (max-width: 600px) {
+    .contenedor-estadisticas {
+        grid-template-columns: 1fr;
+    }
+
+    .grupo-estadisticas {
+        padding: 20px;
+    }
+
+    .grupo-estadisticas h2 {
+        font-size: 1.5em;
+    }
+
+    .grupo-estadisticas p {
+        font-size: 1em;
+    }
+
+    .contenedor-goat {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .goat-img {
+        width: 90%;
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+
+    .goat-info {
+        text-align: center;
+    }
+
+    .goat-info h3 {
+        font-size: 1.3em;
+    }
+
+    .goat-info p {
+        font-size: 1em;
+    }
+}

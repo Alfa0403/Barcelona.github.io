@@ -1,0 +1,327 @@
+#bodyinicio {
+    margin: 0;
+    padding: 20px;
+    font-family: monserrat;
+    background: linear-gradient(to bottom, #004d98, #a50044);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.formulario {
+    width: 90%;
+    max-width: 400px;
+    background: rgb(255, 255, 255);
+    border-radius: 10px;
+    padding: 30px;
+    box-sizing: border-box;
+}
+
+.formulario h1 {
+    text-align: center;
+    padding: 0 0 20px 0;
+    border-bottom: 1px solid rgb(192, 192, 192);
+    margin-bottom: 20px;
+}
+
+.formulario form {
+    padding: 0;
+    box-sizing: border-box;
+}
+
+form .username {
+    position: relative;
+    border-bottom: 2px solid rgb(128, 128, 128);
+    margin: 30px 0;
+}
+
+.username input {
+    width: 100%;
+    padding: 10px 5px;
+    height: auto;
+    font-size: 16px;
+    border: none;
+    background: none;
+    outline: none;
+    box-sizing: border-box;
+}
+
+.username label {
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    color: rgb(128, 128, 128);
+    transform: translateY(-50%);
+    font-size: 16px;
+    pointer-events: none;
+    transition: .5s;
+}
+
+.username span::before {
+    content: '';
+    position: absolute;
+    top: 40px;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background: rgb(128, 128, 128);
+    transition: .5s;
+}
+
+.username input:focus ~ label,
+.username input:not(:placeholder-shown) ~ label {
+    top: -5px;
+    font-size: 12px;
+    color: rgb(128, 128, 128);
+}
+
+.username input:focus ~ span::before,
+.username input:valid ~ span::before {
+    width: 100%;
+}
+
+.recordar {
+    margin: -5px 0 20px 0;
+    color: rgb(0, 0, 255);
+    cursor: pointer;
+    display: block;
+    text-align: left;
+}
+
+.recordar:hover {
+    text-decoration: underline;
+}
+
+input[type="submit"] {
+    width: 100%;
+    height: 50px;
+    border: none;
+    background: rgb(144, 238, 144);
+    border-radius: 25px;
+    font-size: 18px;
+    color: white;
+    cursor: pointer;
+    outline: none;
+    margin-top: 20px;
+}
+
+input[type="submit"]:hover {
+    border-color: #a50044;
+    transition: .5s;
+}
+
+.registrarse {
+    margin: 30px 0;
+    text-align: center;
+    font-size: 16px;
+    color: rgb(0, 0, 0);
+}
+
+.registrarse a {
+    color: rgb(0, 0, 255);
+    text-decoration: none;
+}
+
+.registrarse a:hover {
+    text-decoration: underline;
+}
+
+#bodyregistro {
+    margin: 0;
+    padding: 20px;
+    font-family: monserrat;
+    background: linear-gradient(to bottom, #004d98, #a50044);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.registro {
+    width: 90%;
+    max-width: 400px;
+    background: rgb(255, 255, 255);
+    border-radius: 10px;
+    padding: 30px;
+    box-sizing: border-box;
+}
+
+.registro h1 {
+    text-align: center;
+    padding: 0 0 20px 0;
+    border-bottom: 1px solid rgb(192, 192, 192);
+    margin-bottom: 20px;
+}
+
+.registro form {
+    padding: 0;
+    box-sizing: border-box;
+}
+
+form .reg {
+    position: relative;
+    border-bottom: 2px solid rgb(128, 128, 128);
+    margin: 30px 0;
+}
+
+.reg input {
+    width: 100%;
+    padding: 10px 5px;
+    height: auto;
+    font-size: 16px;
+    border: none;
+    background: none;
+    outline: none;
+    box-sizing: border-box;
+}
+
+.reg label {
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    color: rgb(128, 128, 128);
+    transform: translateY(-50%);
+    font-size: 16px;
+    pointer-events: none;
+    transition: .5s;
+}
+
+.reg span::before {
+    content: '';
+    position: absolute;
+    top: 40px;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background: rgb(128, 128, 128);
+    transition: .5s;
+}
+
+.reg input:focus ~ label,
+.reg input:not(:placeholder-shown) ~ label {
+    top: -5px;
+    font-size: 12px;
+    color: rgb(128, 128, 128);
+}
+
+.reg input:focus ~ span::before,
+.reg input:valid ~ span::before {
+    width: 100%;
+}
+
+input[type="submit"] {
+    width: 100%;
+    height: 50px;
+    border: none;
+    background: rgb(144, 238, 144);
+    border-radius: 25px;
+    font-size: 18px;
+    color: white;
+    cursor: pointer;
+    outline: none;
+    margin-top: 20px;
+}
+
+input[type="submit"]:hover {
+    border-color: #a50044;
+    transition: .5s;
+}
+
+.iniciar {
+    margin: 30px 0;
+    text-align: center;
+    font-size: 16px;
+    color: rgb(0, 0, 0);
+}
+
+.iniciar a {
+    color: rgb(0, 0, 255);
+    text-decoration: none;
+}
+
+.iniciar a:hover {
+    text-decoration: underline;
+}
+
+/* Estilos para el botón de inicio de sesión */
+#btn-inicio-sesion {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    padding: 10px 15px;
+    background-color: #007BFF;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    z-index: 10;
+}
+
+#btn-inicio-sesion:hover {
+    background-color: #0056b3;
+}
+
+/* Media Queries */
+@media (max-width: 600px) {
+    #bodyinicio, #bodyregistro {
+        padding: 20px;
+    }
+
+    .formulario, .registro {
+        padding: 20px;
+    }
+
+    .formulario h1, .registro h1 {
+        font-size: 1.8em;
+        padding-bottom: 15px;
+        margin-bottom: 15px;
+    }
+
+    form .username, form .reg {
+        margin: 20px 0;
+    }
+
+    .username input, .reg input {
+        font-size: 14px;
+    }
+
+    .username label, .reg label {
+        font-size: 14px;
+    }
+
+    input[type="submit"] {
+        font-size: 16px;
+        height: 45px;
+    }
+
+    .registrarse, .iniciar {
+        font-size: 14px;
+        margin: 15px 0;
+    }
+
+    #btn-inicio-sesion {
+        top: 10px;
+        right: 10px;
+        padding: 8px 12px;
+        font-size: 0.9em;
+    }
+}
+
+@media (min-width: 601px) and (max-width: 992px) {
+    .formulario, .registro {
+        padding: 25px;
+    }
+
+    .formulario h1, .registro h1 {
+        font-size: 2em;
+        padding-bottom: 18px;
+        margin-bottom: 18px;
+    }
+
+    form .username, form .reg {
+        margin: 25px 0;
+    }
+}

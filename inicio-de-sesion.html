@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Inicio de Sesión</title>
+
+    <link rel="stylesheet" href="Inicio y registro.css">
+
+</head>
+
+<body id="bodyinicio">
+
+<div class="formulario">
+
+    <h1>Inicio de sesión</h1>
+    <form method="post">
+        <div class="username"> 
+
+          <input type="text" required placeholder=" "/>
+           <label> Nombre de usuario </label>
+            
+        </div>
+
+        <div class=username>
+            <input type="password" required placeholder="">
+            <label> Contraseña </label>
+
+        </div>
+
+        <div class="recordar"> <a href="A.html">¿Olvidaste tu contraseña? </a> </div>
+       
+        <input type="submit" value="Inicio">
+
+        <div class="registrarse"> 
+            ¿No tiene una cuenta? <a href="registro.html">Registrate </a>
+        
+        </div>
+   
+        
+    </form>
+
+</div>
+<script>
+    function validarInicio() {
+        const usernameInput = document.getElementById('username');
+        const passwordInput = document.getElementById('password');
+        if (usernameInput.value.trim() === "" || passwordInput.value.trim() === "") {
+            alert("Por favor, complete el nombre de usuario y la contraseña.");
+            return;
+        }
+        window.location.href = "Barcelona.html";
+        
+    }
+</script>
+
+</div>
+
+</body>
+
+</html>
